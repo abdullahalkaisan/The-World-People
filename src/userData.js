@@ -162,7 +162,47 @@ export const userData = [
     hasRain: true,
     hasSnow: false,
     ethnic: "Asian",
-  },
+  },{
+    id: 7,
+    country: "Kazakhstan",
+    continent: "Asia",
+    flag: "kz",
+    malePic: [
+      "https://i.pinimg.com/1200x/92/f1/a4/92f1a4f3f95608ed863d9aecdc597f6d.jpg",
+      "https://live.staticflickr.com/7020/6491417779_7c3b748f43_z.jpg",
+      "https://as1.ftcdn.net/v2/jpg/02/63/29/50/1000_F_263295049_FCd2QGZUlosLC6wyboiodpoRFqTsIwQO.jpg",
+      "https://eurasianet.org/sites/default/files/styles/article/public/2019-01/12032006_963514443705045_8336075352672670585_n.jpg?itok=0HylKZGx",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3uHoyE0n_D02k-ceIQLanLex-plD4A_Baqw&s",
+      "https://central-asia.guide/wp-content/uploads/2021/07/Kazakh_national_costume_old_man.jpg",
+      "https://i.pinimg.com/564x/72/db/4e/72db4e5e26e2ba64fbf3d29b33f04a9e.jpg"
+    ],
+    femalPic: [
+      "https://live.staticflickr.com/65535/48512032146_b8b50cb430_b.jpg",
+      "https://miro.medium.com/v2/resize:fit:900/1*9tKcn7kPGYhji3LTy-Dsvw.jpeg",
+      "https://qph.cf2.quoracdn.net/main-qimg-6fea425a875caaa6057d9fcafebf5c7a-lq",
+      "https://preview.redd.it/9uou8kf90t9b1.jpg?auto=webp&s=f9a745e753b539f2a19a0c68e4399c2150dd2aba",
+      "https://img.lovehabibi.com/826460817/m/231024061555939b.jpg",
+      "https://img.lovehabibi.com/287851/m/220723224753e18a.jpg"
+    ],
+    placePic: [
+        "https://media.cntraveller.com/photos/637cef99ce1c9bd657a981db/master/w_1600%2Cc_limit/Bayterek.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/7b/f1/41/10-330-1000-2500-2700.jpg?w=900&h=900&s=1",
+        "https://lh3.googleusercontent.com/p/AF1QipMO1qRvYTA4kOKUIYIv6sReZ-_6MeevIrHd-jq2=s680-w680-h510",
+        "https://lh3.googleusercontent.com/p/AF1QipOB5Fqs9PkMn0LDWhtdM9Sftx6CJqxgXzDUNH0A=s680-w680-h510",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Central_Downtown_Astana_2.jpg/1280px-Central_Downtown_Astana_2.jpg",
+    ],
+    youtubeLink: [
+      "https://www.youtube.com/watch?v=k7r8Kgs_pfk",
+      "https://www.youtube.com/watch?v=1fX-Lw9o6Yg",
+      "https://www.youtube.com/watch?v=dBxU5eK50cs"
+    ],
+    religion: "Islam, Christianity",
+    skinTone: "Varies from light to dark",
+    language: "Kazakh, Russian",
+    hasRain: true,
+    hasSnow: true,
+    ethnic: "Asian, European"
+}
 
 ];
 

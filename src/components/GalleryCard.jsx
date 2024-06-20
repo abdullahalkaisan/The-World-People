@@ -6,7 +6,7 @@ import { BiWorld } from 'react-icons/bi';
 import { FaRegSnowflake } from 'react-icons/fa';
 import { FiCloudRain } from 'react-icons/fi';
 import { IoLanguage } from 'react-icons/io5';
-import { MdOutlineDragHandle, MdOutlineDragIndicator } from 'react-icons/md';
+import { MdOutlineDragHandle, MdOutlineDragIndicator, MdStars } from 'react-icons/md';
 import { RiGroupLine } from 'react-icons/ri';
 
 export default function GalleryCard(props) {
@@ -135,9 +135,7 @@ export default function GalleryCard(props) {
                                 <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<RiGroupLine size={"15px"} style={{ marginLeft: 10 }} />} label={data.ethnic} />
                                 <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<IoLanguage size={"15px"} style={{ marginLeft: 10 }} />} label={data.language} />
                                 <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<div style={{ height: "20px", width: "20px", borderRadius: 999, backgroundColor: "#DBB8A1" }}></div>} label={data.skinTone} />
-                                <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<img style={{ height: "15px", marginLeft: 10 }} src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Symbol_of_Islam.svg/2361px-Symbol_of_Islam.svg.png' />} label={data.religion} />
-                                <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<FiCloudRain size={"15px"} style={{ marginLeft: 10 }} />} label="Has Rain" />
-                                <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<FaRegSnowflake size={"15px"} style={{ marginLeft: 10 }} />} label="No Snow" />
+                                <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<MdStars color='brown' size={"15px"}/>} label={data.religion} />
                             </Box>
 
                             {/* <Tooltip title="Has Raining Season">
@@ -146,6 +144,8 @@ export default function GalleryCard(props) {
                             <FaRegSnowflake size={"20px"} color='#777' style={{marginLeft:10}}/> */}
                         </div>
 
+                        {/* <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<FiCloudRain size={"15px"} style={{ marginLeft: 10 }} />} label="Has Rain" />
+                        <Chip onClick={handleClick} style={{ marginRight: 8, marginBottom: 8, }} icon={<FaRegSnowflake size={"15px"} style={{ marginLeft: 10 }} />} label="No Snow" /> */}
 
                             {
                                 data.youtubeLink.map((item, index)=> 
