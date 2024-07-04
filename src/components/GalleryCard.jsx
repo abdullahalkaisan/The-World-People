@@ -39,6 +39,7 @@ export default function GalleryCard(props) {
             <Box>
                 <Box sx={{ width: 300, height: 300}}>
                     <Flicking
+                        align="prev"
                         plugins={plugins}
                         
                     >
@@ -52,6 +53,7 @@ export default function GalleryCard(props) {
                 </Box>
                 <Box sx={{ width: 300, height: 300 }}>
                     <Flicking
+                        align="prev"
                         plugins={plugins}
                     >
 
@@ -77,12 +79,13 @@ export default function GalleryCard(props) {
                 {/* place  */}
                 <Box sx={{ width: 400, height: 300 }}>
                     <Flicking
+                        align="prev"
                         plugins={plugins}
                     >
 
 
                     {data.placePic.map((item, index) => <div key={index} style={{height:"100%",width:"100%", display:"flex", cursor:"pointer", justifyContent:"center", alignItems:"center"}}>
-                        <img  style={{ borderRadius:8, width:"95%", height:"95%", objectFit:"cover",display:"flex", pointerEvents:"none" }}  src={item} alt="img" />
+                        <img  style={{ borderRadius:8, width:"95%", height:"95%", objectFit:"cover",display:"flex", pointerEvents:"none" }}  src={item} alt="Can't load Image" />
                     </div>)}
 
                     

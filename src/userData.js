@@ -164,6 +164,7 @@ export const userData = [
     ethnic: "Asian",
   },{
     id: 7,
+<<<<<<< Updated upstream
     country: "Kazakhstan",
     continent: "Asia",
     flag: "kz",
@@ -203,6 +204,83 @@ export const userData = [
     hasSnow: true,
     ethnic: "Asian, European"
 }
+=======
+    country: "South Korea",
+    continent: "Asia",
+    flag: "kr",
+    malePic: [
+        "https://i.cbc.ca/1.6816435.1681994215!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/south-korea-singer-death.jpg",
+        "https://wehco.media.clients.ellingtoncms.com/img/photos/2017/06/07/139007960_Yeongin-Lee_t600.jpg?4326734cdb8e39baa3579048ef63ad7b451e7676",
+        "https://ichef.bbci.co.uk/news/976/cpsprodpb/8CE5/production/_100196063_img_5824.jpg",
+        "https://media.cnn.com/api/v1/images/stellar/prod/220804224049-03-south-korea-kpop-love-romance-restricted.jpg?c=original",
+        "https://thumbs.dreamstime.com/b/cute-korean-kid-drink-milk-south-korea-use-editorial-32692937.jpg"
+    ],
+    femalPic: [
+        "https://upload.wikimedia.org/wikipedia/commons/0/06/Korean_woman.jpg",
+        "https://qph.cf2.quoracdn.net/main-qimg-019c3333fb76bd95c21d67b3e48fa332-lq",
+        "https://static5.depositphotos.com/1046403/489/i/450/depositphotos_4897859-stock-photo-korean-girl-in-the-park.jpg",
+        "https://live-production.wcms.abc-cdn.net.au/f69c66db876fbc9f43b0819daa0e4874?impolicy=wcms_crop_resize&cropH=3333&cropW=5000&xPos=0&yPos=0&width=862&height=575"
+    ],
+    placePic: [
+      "https://www.entouriste.com/wp-content/uploads/2013/06/Streets-of-Seoul-South-Korea.jpg",
+      "https://www.tripjalan.com/wp-content/uploads/2019/12/korea.jpg",
+      "https://ik.imgkit.net/3vlqs5axxjf/external/http://images.ntmllc.com/v4/destination/South-Korea/Seoul/219740_SCN_Seoul_iStock521707831_ZC35CD.jpg?tr=w-1200%2Cfo-auto",
+      "https://www.lowyinstitute.org/sites/default/files/styles/interpreter_article_image/public/GettyImages-1134201090.jpeg?itok=8o5Bgxq8",
+      "https://media.cntraveler.com/photos/5a70f9d68af0dc48d25daf9f/4:3/w_4447,h_3335,c_limit/Haedong-Yonggungsa-Temple-GettyImages-874460458.jpg",
+    ],
+    youtubeLink: [
+        "https://www.youtube.com/watch?v=uEEe2B7W0GA",
+        "https://www.youtube.com/watch?v=GzU8KqOY8YA",
+        "https://www.youtube.com/watch?v=dxotPa1PWio",
+        "https://www.youtube.com/watch?v=1u6Gx_N_MAc"
+    ],
+    religion: "Buddhism and Christianity",
+    skinTone: "Light",
+    language: "Korean",
+    hasRain: true,
+    hasSnow: true,
+    ethnic: "Korean"
+},
+{
+    id: 8,
+    country: "Vietnam",
+    continent: "Asia",
+    flag: "vn",
+    malePic: [
+        "https://images.unsplash.com/photo-1531123414780-f85a3f5ccdf3",
+        "https://images.unsplash.com/photo-1554135093-7e83108d46d3",
+        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+    ],
+    femalPic: [
+        "https://images.unsplash.com/photo-1558979908-6f4f9fa6d6f3",
+        "https://images.unsplash.com/photo-1554223896-c49534eb415a",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+    ],
+    placePic: [
+        "https://images.unsplash.com/photo-1511131341194-92b20b43c0ff",
+        "https://images.unsplash.com/photo-1535944579310-15929072c105",
+        "https://images.unsplash.com/photo-1567487407661-82c6c27f7104",
+        "https://images.unsplash.com/photo-1579684286960-94bc2083d29b",
+        "https://images.unsplash.com/photo-1574583556855-3fa2f424b8f6",
+        "https://images.unsplash.com/photo-1582719508468-6cf3d413d332",
+        "https://images.unsplash.com/photo-1565665770680-85d5a99f55a1",
+        "https://images.unsplash.com/photo-1572790973274-4b8b3e9b2be7"
+    ],
+    youtubeLink: [
+        "https://www.youtube.com/watch?v=mf1A2Ivl4rY",
+        "https://www.youtube.com/watch?v=vlG0kA_J2sM",
+        "https://www.youtube.com/watch?v=biwjywVv98w",
+        "https://www.youtube.com/watch?v=c2HPgV4qVZk"
+    ],
+    religion: "Buddhism",
+    skinTone: "Light to Medium",
+    language: "Vietnamese",
+    hasRain: true,
+    hasSnow: false,
+    ethnic: "Vietnamese"
+}
+
+>>>>>>> Stashed changes
 
 ];
 
