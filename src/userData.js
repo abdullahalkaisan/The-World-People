@@ -7,7 +7,7 @@ export const userData = [
     malePic: [
       "https://media.sciencephoto.com/image/p9800125/800wm/P9800125.jpg",
       "https://storage.ws.pho.to/s2/698f541db8e4fe2e480c9ed2d3e792be5517e642_m.jpeg",
-      "https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/6/2020_6$largeimg_1917650137.jpg",
+      // "",
     ],
     femalPic: ["https://media.istockphoto.com/id/153719362/photo/bengali-woman.jpg?s=612x612&w=0&k=20&c=I-fIq5gwUZJlmkOIqXJBNBJJKgy74oE39LZ83FCCGmQ="],
     placePic: [
@@ -42,8 +42,15 @@ export const userData = [
       "https://img.freepik.com/free-photo/portrait-man-standing-amusement-park-looking-camera_23-2148193980.jpg",
     ],
     femalPic: [
-      "https://southernmadetees.com/wp-content/uploads/2020/03/USA-Babe-Patriotic-Girl-T-Shirt.jpg",
+      "https://img.freepik.com/free-photo/front-view-beautiful-smiling-girl_23-2148651263.jpg",
+      "https://us.images.westend61.de/0000766339pw/usa-new-york-coney-island-happy-little-girl-with-lollipop-DAPF00545.jpg",
+      "https://img.freepik.com/free-photo/young-girl-with-present_144627-45094.jpg",
+      "https://img.freepik.com/premium-photo/teenage-girl-from-usa-90s-kodak-style-photo_1106493-42732.jpg",
+      "https://st3.depositphotos.com/3450711/15924/i/450/depositphotos_159240860-stock-photo-beautiful-woman-in-plaid-shirt.jpg",
       "https://1.bp.blogspot.com/-NL9rWV_Jw-o/XqRwbMU9hhI/AAAAAAAAS6g/VkBMLQq03Xglz4XvyvbznjEz6JBlMZdHgCLcBGAsYHQ/s1600/LS.UK.33.W.2020425.jpg",
+      "https://momsoftweensandteens.com/wp-content/uploads/2022/10/Dear-Teen-Girl-You-are-Beautiful-Brave-and-Strong.png",
+      "https://live.staticflickr.com/8197/8243356070_81332703d6_b.jpg",
+      ""
     ],
     placePic: ["https://media.architecturaldigest.com/photos/5da74823d599ec0008227ea8/16:9/w_2560%2Cc_limit/GettyImages-946087016.jpg"],
     youtubeLink: [
@@ -164,7 +171,6 @@ export const userData = [
     ethnic: "Asian",
   },{
     id: 7,
-<<<<<<< Updated upstream
     country: "Kazakhstan",
     continent: "Asia",
     flag: "kz",
@@ -188,9 +194,6 @@ export const userData = [
     placePic: [
         "https://media.cntraveller.com/photos/637cef99ce1c9bd657a981db/master/w_1600%2Cc_limit/Bayterek.jpg",
         "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/7b/f1/41/10-330-1000-2500-2700.jpg?w=900&h=900&s=1",
-        "https://lh3.googleusercontent.com/p/AF1QipMO1qRvYTA4kOKUIYIv6sReZ-_6MeevIrHd-jq2=s680-w680-h510",
-        "https://lh3.googleusercontent.com/p/AF1QipOB5Fqs9PkMn0LDWhtdM9Sftx6CJqxgXzDUNH0A=s680-w680-h510",
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Central_Downtown_Astana_2.jpg/1280px-Central_Downtown_Astana_2.jpg",
     ],
     youtubeLink: [
       "https://www.youtube.com/watch?v=k7r8Kgs_pfk",
@@ -203,8 +206,7 @@ export const userData = [
     hasRain: true,
     hasSnow: true,
     ethnic: "Asian, European"
-}
-=======
+},{
     country: "South Korea",
     continent: "Asia",
     flag: "kr",
@@ -247,24 +249,16 @@ export const userData = [
     continent: "Asia",
     flag: "vn",
     malePic: [
-        "https://images.unsplash.com/photo-1531123414780-f85a3f5ccdf3",
-        "https://images.unsplash.com/photo-1554135093-7e83108d46d3",
-        "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0"
+        "https://t3.ftcdn.net/jpg/03/82/38/96/360_F_382389631_zgr3rFUb6ghDvx3fGEKn3La3jNfJPaYF.jpg",
+        "https://media.istockphoto.com/id/871471058/photo/portrait-of-good-looking-asian-man-over-gray-background.jpg?s=612x612&w=0&k=20&c=kD1IPzwIQpFtcckvrakun1kFDFmbMW7vdVRTM-JWm-8=",
     ],
     femalPic: [
-        "https://images.unsplash.com/photo-1558979908-6f4f9fa6d6f3",
-        "https://images.unsplash.com/photo-1554223896-c49534eb415a",
-        "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+        "https://th.bing.com/th/id/R.a858114d346eed8a5c94f3b1fdd70b62?rik=a%2fMGo29XBTRltw&pid=ImgRaw&r=0",
+        "https://th.bing.com/th/id/OIP.Z_7U6iwAuf7YHA-d7O65KwHaK5?rs=1&pid=ImgDetMain",
     ],
     placePic: [
-        "https://images.unsplash.com/photo-1511131341194-92b20b43c0ff",
-        "https://images.unsplash.com/photo-1535944579310-15929072c105",
-        "https://images.unsplash.com/photo-1567487407661-82c6c27f7104",
-        "https://images.unsplash.com/photo-1579684286960-94bc2083d29b",
-        "https://images.unsplash.com/photo-1574583556855-3fa2f424b8f6",
-        "https://images.unsplash.com/photo-1582719508468-6cf3d413d332",
-        "https://images.unsplash.com/photo-1565665770680-85d5a99f55a1",
-        "https://images.unsplash.com/photo-1572790973274-4b8b3e9b2be7"
+        "https://visitworld.today/media/blog/previews/gJT6NTlOrj63Mj4yoq5rJojC4jczc9tuGML1chz1.jpg",
+        "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/05/26/117393.jpg"
     ],
     youtubeLink: [
         "https://www.youtube.com/watch?v=mf1A2Ivl4rY",
@@ -280,7 +274,6 @@ export const userData = [
     ethnic: "Vietnamese"
 }
 
->>>>>>> Stashed changes
 
 ];
 

@@ -3,8 +3,8 @@ import Flicking from '@egjs/react-flicking';
 import { Box, Chip, IconButton, Typography } from '@mui/material';
 import { useState } from 'react';
 import { BiWorld } from 'react-icons/bi';
-import { FaRegSnowflake } from 'react-icons/fa';
-import { FiCloudRain } from 'react-icons/fi';
+// import { FaRegSnowflake } from 'react-icons/fa';
+// import { FiCloudRain } from 'react-icons/fi';
 import { IoLanguage } from 'react-icons/io5';
 import { MdOutlineDragHandle, MdOutlineDragIndicator, MdStars } from 'react-icons/md';
 import { RiGroupLine } from 'react-icons/ri';
@@ -13,10 +13,7 @@ export default function GalleryCard(props) {
 
 
     const [isBig, setIsBig] = useState(true);
-
-
     const data = props.item;
-
     const plugins = [new AutoPlay({ duration: 2000, direction: "NEXT", stopOnHover: false })];
 
     const handleClick = () => {
